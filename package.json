@@ -1,0 +1,27 @@
+{
+  "name": "approval-counter",
+  "version": "1.0.0",
+  "description": "approveの数をカウントして表示するchrome拡張",
+  "main": "content.js",
+  "private": true,
+  "scripts": {
+    "dist": "gulp dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilf312/approval-counter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wilf312/approval-counter/issues"
+  },
+  "homepage": "https://github.com/wilf312/approval-counter#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-zip": "^4.2.0"
+  }
+}
