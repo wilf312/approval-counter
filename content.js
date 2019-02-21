@@ -4,7 +4,7 @@ var getStyledDom = (text) => {
   var dom = document.createElement("div")
   dom.textContent = text
   dom.attributeStyleMap.set('position', 'absolute')
-  dom.attributeStyleMap.set('left', '45px')
+  dom.attributeStyleMap.set('left', '17px')
   dom.attributeStyleMap.set('top', '30px')
   dom.attributeStyleMap.set('color', 'black')
   dom.attributeStyleMap.set('font-size', '20px')
